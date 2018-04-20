@@ -1,0 +1,14 @@
+public class Test{
+static{
+print(10);
+}
+static void print (int x) {
+System.out.println (x);
+System.exit(0);
+}
+}
+
+When this code is executed, it will compile without any errors, but 
+it will run with an error "Main method not found in class Test".
+
+So Answer is b. 
